@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="24px" viewBox="0 0 12 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="style-guide-copy" transform="translate(-155.000000, -353.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="icons" transform="translate(155.000000, 167.000000)">
+                <path d="M3,194 L0,194 L0,198 L3,198 L3,210 L8,210 L8,198 L11.642,198 L12,194 L8,194 L8,192.333 C8,191.378 8.192,191 9.115,191 L12,191 L12,186 L8.192,186 C4.596,186 3,187.583 3,190.615 L3,194 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

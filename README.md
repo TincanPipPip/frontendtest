@@ -1,11 +1,17 @@
 # Un.titled Front End Developer test project
 
-======
-
 ## Objectives
 
 - Recreate [this](https://projects.invisionapp.com/share/CXV79L5S29U#/screens/397139710) design
-- Clone this repo, and when you've finished zip it up and email to [harry.edwards@un.titled.co.uk](harry.edwards@un.titled.co.uk)
+- Clone this repo, and when you've finished zip it up and email to [harry.edwards@un.titled.co.uk](harry.edwards@un.titled.co.uk) (please leave all working files, but feel free to remove `node_modules` if you have it!)
+
+## Spec
+
+- The header should be sticky
+- The header, banner image & footer should be full bleed
+- Other content should have a max column width of 1500px
+- Links don't need to go anywhere/you can provide example markup
+- The map overlay should be triggered when clicking on the `View map` button
 
 ## Assets
 
@@ -28,11 +34,17 @@
 
 - Use whatever technology you feel comfortable with (recommended `scss`/`sass`, `ES6`, `Gulp`/`Webpack`)
 - The page must be responsive (at a minumum small mobile screens & average laptop sized screens)
+- Minumum browser requirements are Edge, Chrome (latest), Firefox (latest)
 
-## Hints
+### Hints
 
+- Think of this page as being part of a larger site, so your code should be reusable where logical
 - Use common best practices wherever possible
 - Keep accessibility in mind
 - Make the page as performant as you can
 - SEO is very important
 - Comments are great for telling us what you're thinking
+
+#### Legal
+
+- The assets & design included in this repo are to only be used for the purposes of this exercice and may not be used in any form for other projects without prior written consent. The code you write is yours to do with as you please.
