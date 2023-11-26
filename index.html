@@ -1,1 +1,331 @@
-<!-- Happy coding! -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Author: Un Author, Illustrator: Meat Feast, Category: Recipe, Price: £12, Length: 1 page">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="dist/css/minified/main.css">
+  <title>izza | Assignment </title>
+</head>
+
+<body>
+  <header class="container">
+    <div class="site-logo">
+      <a href="#" class="logo-link"> <img src="assets/svg/izza.svg" alt="Site Logo" srcset=""> </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a class="nav-link" href="#">Menu</a></li>
+        <li><a class="nav-link" href="#">Family</a></li>
+        <li><a class="nav-link" href="#">Find us</a></li>
+      </ul>
+      <ul class="contact-us">
+        <li><a href="callto:+123456789" class="nav-link"><span class="text"> Contact </span> <i
+              class="fa-solid fa-phone"></i></a></li>
+      </ul>
+    </nav>
+    <div class="menu-btns">
+      <button aria-label="hamburger menu button" class="menu-btn hamburger-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <button aria-label="close menu button" class="menu-btn close-btn">
+        <i class="fa-solid fa-close"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- hero section  -->
+    <section class="hero-banner">
+      <div class="container">
+        <h1 class="banner-text">There is always time for Pizza...</h1>
+        <span class="tag">Meat Feast</span>
+      </div>
+    </section>
+
+    <!-- recipe menu section -->
+    <section class="recipe menu-tabs">
+      <div class="container">
+        <h2 class="heading">Menu</h2>
+        <div class="tab">
+          <button class="tablinks" onclick="menu(event, 'pizza')">Pizza</button>
+          <button class="tablinks" onclick="menu(event, 'calzone')">Calzone</button>
+          <button class="tablinks" onclick="menu(event, 'deserts')">Deserts</button>
+          <button class="tablinks" onclick="menu(event, 'drinks')">Drinks</button>
+        </div>
+        <div id="pizza" class="tabcontent">
+          <div class="grid">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/apizzaimage.jpg" alt="apizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Spicy hot dog</h2>
+                <p>Tomato sauce, mozzarella, hot dog, caramelised onions, red onions and French's
+                  mustard drizzle.</p>
+                <p class="cost">£10</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/bpizzaimage.jpg" alt="bpizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Jac n Cheese</h2>
+                <p>Mozzarella, BBQ jackfruit, peppers, red onions, sweetcorn and a BBQ drizzle.</p>
+                <p class="cost">£8</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/apizzaimage.jpg" alt="apizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Spicy hot dog</h2>
+                <p>Tomato sauce, mozzarella, hot dog, caramelised onions, red onions and French's
+                  mustard drizzle.</p>
+                <p class="cost">£10</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="calzone" class="tabcontent">
+          <div class="grid">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/apizzaimage.jpg" alt="apizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Spicy hot dog</h2>
+                <p>Tomato sauce, mozzarella, hot dog, caramelised onions, red onions and French's
+                  mustard drizzle.</p>
+                <p class="cost">£10</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/apizzaimage.jpg" alt="apizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Spicy hot dog</h2>
+                <p>Tomato sauce, mozzarella, hot dog, caramelised onions, red onions and French's
+                  mustard drizzle.</p>
+                <p class="cost">£10</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/bpizzaimage.jpg" alt="bpizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Jac n Cheese</h2>
+                <p>Mozzarella, BBQ jackfruit, peppers, red onions, sweetcorn and a BBQ drizzle.</p>
+                <p class="cost">£8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="deserts" class="tabcontent">
+          <div class="grid">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/apizzaimage.jpg" alt="apizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Spicy hot dog</h2>
+                <p>Tomato sauce, mozzarella, hot dog, caramelised onions, red onions and French's
+                  mustard drizzle.</p>
+                <p class="cost">£10</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/bpizzaimage.jpg" alt="bpizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Jac n Cheese</h2>
+                <p>Mozzarella, BBQ jackfruit, peppers, red onions, sweetcorn and a BBQ drizzle.</p>
+                <p class="cost">£8</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/apizzaimage.jpg" alt="apizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Spicy hot dog</h2>
+                <p>Tomato sauce, mozzarella, hot dog, caramelised onions, red onions and French's
+                  mustard drizzle.</p>
+                <p class="cost">£10</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="drinks" class="tabcontent">
+          <div class="grid">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/apizzaimage.jpg" alt="apizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Spicy hot dog</h2>
+                <p>Tomato sauce, mozzarella, hot dog, caramelised onions, red onions and French's
+                  mustard drizzle.</p>
+                <p class="cost">£10</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/apizzaimage.jpg" alt="apizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Spicy hot dog</h2>
+                <p>Tomato sauce, mozzarella, hot dog, caramelised onions, red onions and French's
+                  mustard drizzle.</p>
+                <p class="cost">£10</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/bpizzaimage.jpg" alt="bpizzaimage">
+                <span class="tag">Super hot</span>
+              </div>
+              <div class="text">
+                <h2>Jac n Cheese</h2>
+                <p>Mozzarella, BBQ jackfruit, peppers, red onions, sweetcorn and a BBQ drizzle.</p>
+                <p class="cost">£8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- family summary  -->
+    <section class="family">
+      <div class="container">
+        <div class="member-details">
+          <div class="member">
+            <div class="summary">
+              <h1 class="title">Family</h1>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum in,
+                rhoncus proin quam
+                interdum convallis tempor tellus.</p>
+              <div class="social-account">
+                <a href="#" class="social-link twitter">Twitter</a>
+                <a href="#" class="social-link instagram">Instagram</a>
+                <a href="#" class="social-link facebook">Facebook</a>
+              </div>
+            </div>
+          </div>
+          <div class="member picture">
+            <img src="assets/img/asignpostimage.jpg" alt="member picture">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- exclusive offer -->
+    <section class="exclusive-offer">
+      <div class="container">
+        <div class="offer-details">
+          <div class="offer-summary">
+            <p class="tag">Exclusive offer</p>
+            <h2 class="title">Sign up to our news letter for <br /> exclusive offer of 2023.</h2>
+            <a href="#" class="readmore readmore-link">Read more</a>
+          </div>
+          <div class="recipe-picture">
+            <img src="assets/img/bsignpostimage.jpg" alt="recipe picture">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- find us  -->
+    <section class="family">
+      <div class="container">
+        <div class="member-details">
+          <div class="member">
+            <div class="summary">
+              <h1 class="title">Find us</h1>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum in,
+                rhoncus proin quam
+                interdum convallis tempor tellus.</p>
+              <div class="social-account">
+                <button class="social-link view-map">View map</button>
+              </div>
+            </div>
+          </div>
+          <div class="member picture">
+            <img src="assets/img/asignpostimage.jpg" alt="member picture">
+          </div>
+        </div>
+      </div>
+      <div class="overlay-map">
+        <div class="custom-modal">
+          <div class="label">
+            <h2>Find us at</h2>
+            <img src="assets/svg/cross.svg" class="close overlay-map-close" alt="close">
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1615.9254597722654!2d-1.1339286902650432!3d52.63915745447631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7314784b68c14c0!2sUn.titled!5e0!3m2!1sen!2suk!4v1575994684235!5m2!1sen!2suk"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="site-logo">
+          <a href="#" class="logo-link"> <img src="assets/svg/izza.svg" alt="Site Logo" srcset=""> </a>
+        </div>
+        <div class="contact-us">
+          <label>Contact us</label>
+          <a href="tel:01234 567890">01234 567890</a>
+        </div>
+        <div class="follow-us">
+          <label>Follow us</label>
+          <ul class="social">
+            <li><a href="#"><img src="assets/svg/facebook.svg" alt="facebook"></a></li>
+            <li><a href="#"><img src="assets/svg/twitter.svg" alt="twitter"></a></li>
+            <li><a href="#"><img src="assets/svg/insta.svg" alt="instagram"></a></li>
+            <li><a href="#"><img src="assets/svg/linkedin.svg" alt="linkedin"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="copyright-text">© iZZA is a company limited by guarantee registered in England and Wales.</p>
+        <p></p>
+        <p class="copyright-text develop-by">Made by <a href="#"><img src="assets/svg/un.svg" alt="made by un"
+              width="80px"></a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../dist/js/all.js"></script>
+</body>
+
+</html>
