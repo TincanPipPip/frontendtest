@@ -3,7 +3,7 @@
 ## Objectives
 
 - Recreate [this](https://projects.invisionapp.com/share/CXV79L5S29U#/screens/397139710) design
-- Clone this repo, and when you've finished zip it up and email to [harry.edwards@un.titled.co.uk](harry.edwards@un.titled.co.uk) (please leave all working files, but feel free to remove `node_modules` if you have it!)
+- Clone this repo, and when you've finished zip it up and email to said id by HR (please leave all working files, but feel free to remove `node_modules` if you have it!)
 
 ## Spec
 
