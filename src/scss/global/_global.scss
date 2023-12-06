@@ -1,0 +1,115 @@
+// font family
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+
+// color variabls
+$true-black: #000000;
+$pure-white: #ffffff;
+$primary-teal: #6BDDE2;
+
+// breakpoints 
+$small-mobile: 475px;
+$mobile: 768px;
+$tabs: 992px;
+$desktop: 1200px;
+$large-desktop: 1400px;
+$extra-large-desktop: 1600px;
+
+body {
+	margin: auto;
+	color: $true-black;
+}
+/* Base container styles */
+.container {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+/* Media query for responsiveness */
+@media (min-width: $mobile) {
+	.container {
+		max-width: 750px;
+		padding: initial;
+	}
+}
+
+@media (min-width: $tabs) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+@media (min-width: $desktop) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+@media (min-width: $large-desktop) {
+	.container {
+		max-width: 1200px;
+	}
+}
+
+@media (min-width: $extra-large-desktop) {
+	.container {
+		max-width: 1500px;
+	}
+}
+
+
+// mixin
+@mixin typography($font-family, $font-weight, $letter-spacing) {
+	font-family: $font-family, sans-serif;
+	font-weight: $font-weight;
+	letter-spacing: $letter-spacing;
+}
+
+// basic style 
+h1,
+.h1 {
+	@include typography('Poppins', 700, 0px);
+	font-size: 31px;
+	line-height: 41px;
+
+	@media (min-width: $mobile) {
+		font-size: 78px;
+		line-height: 86px;
+	}
+}
+
+h2,
+.h2 {
+	@include typography('Poppins', 700, 0px);
+	font-size: 20px;
+	line-height: 30px;
+
+	@media (min-width: $mobile) {
+		font-size: 29px;
+		line-height: 39px;
+	}
+}
+
+p,
+.paragraph {
+	@include typography('Poppins', 400, 0px);
+	font-size: 16px;
+	line-height: 26px;
+
+	@media (min-width: $mobile) {
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+
+.nav-link,
+.contact-us-link {
+	@include typography('Poppins', 700, 0px);
+	font-size: 18px;
+	line-height: 28px;
+	text-decoration: none;
+	color: $pure-white;
+}
