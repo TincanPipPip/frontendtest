@@ -3,8 +3,8 @@
 ## Objectives
 
 - Recreate the following designs:
-  - [<img src="assets/img/design.png" alt="Design" width="400"/>](assets/img/design.png)
-  - [<img src="assets/img/design-modal.png" alt="Design Modal" width="400"/>](assets/img/design-modal.png)
+  - [page design](assets/img/design.png)
+  - [popup modal design](assets/img/design-modal.png)
 - Clone this repo, and when you've finished zip it up and email to said id by HR (please leave all working files, but feel free to remove `node_modules` if you have it!)
 
 ## Spec
