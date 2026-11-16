@@ -13,6 +13,7 @@
 - The header, banner image & footer should be full bleed.
 - Other content should have a max column width of 1500px.
 - The map overlay should be triggered when clicking on the `View map` button.
+- Use the full extent of your capabilities to enhance the quality and interaction of the page where you're able to.
 
 ## Assets
 
